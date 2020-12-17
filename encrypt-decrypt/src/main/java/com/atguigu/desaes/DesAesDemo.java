@@ -25,8 +25,10 @@ public class DesAesDemo {
         //加密类型
         String encryptionType = "DES";
         String decryptionType = "DES";
+
         String encryptDES = encryptDES(input, key, transformation, encryptionType);
         System.out.println("加密:"+encryptDES);
+
         String decryptDES = decryptDES(encryptDES, key, transformation, decryptionType);
         System.out.println("解密:"+decryptDES);
     }
