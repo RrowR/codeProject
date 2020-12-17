@@ -28,5 +28,3 @@ target/
 /nbdist/
 /.nb-gradle/
 /build/
-
-*.iml
