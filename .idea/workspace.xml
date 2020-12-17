@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b8c58183-96f1-4c84-bc3d-ea90538cb674" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/encrypt-decrypt/target/classes/com/atguigu/ascii/AsciiDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/encrypt-decrypt/target/classes/com/atguigu/bytebit/BiteBit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/encrypt-decrypt/target/classes/com/atguigu/bytebit/BiteBitDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/encrypt-decrypt/target/classes/com/atguigu/kaiser/FrequencyAnalysis$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/encrypt-decrypt/target/classes/com/atguigu/kaiser/FrequencyAnalysis.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/encrypt-decrypt/target/classes/com/atguigu/kaiser/KaiserDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/encrypt-decrypt/target/classes/com/atguigu/kaiser/Util.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +56,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/encrypt-decrypt/src/main/java/com/atguigu/kaiser" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="file.status.colors" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -131,7 +139,7 @@
     </option>
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>C:\Users\admin\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -140,7 +148,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1608168967372</updated>
-      <workItem from="1608168975445" duration="10249000" />
+      <workItem from="1608168975445" duration="11372000" />
     </task>
     <task id="LOCAL-00001" summary="完全版">
       <created>1608172786472</created>
@@ -184,7 +192,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608183899142</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="完全版">
+      <created>1608184228911</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1608184228911</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -238,10 +253,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="552" y="199" key="#Notifications/0.0.1920.1080@0.0.1920.1080" timestamp="1608174414442" />
-    <state x="546" y="134" key="CommitChangelistDialog2" timestamp="1608183897655">
+    <state x="546" y="134" key="CommitChangelistDialog2" timestamp="1608184227994">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="546" y="134" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1608183897655" />
+    <state x="546" y="134" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1608184227994" />
     <state x="731" y="292" key="FileChooserDialogImpl" timestamp="1608169018415">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -250,10 +265,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="802" y="440" key="Gitee.ShareDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1608175119846" />
-    <state x="823" y="431" width="404" height="256" key="Github.ShareDialog" timestamp="1608177659918">
+    <state x="823" y="431" width="404" height="256" key="Github.ShareDialog" timestamp="1608184426838">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="823" y="431" width="404" height="256" key="Github.ShareDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1608177659918" />
+    <state x="823" y="431" width="404" height="256" key="Github.ShareDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1608184426838" />
     <state width="1877" height="295" key="GridCell.Tab.0.bottom" timestamp="1608176251356">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -270,14 +285,14 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1877" height="295" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1608176251356" />
-    <state x="452" y="179" key="SettingsEditor" timestamp="1608183807384">
+    <state x="518" y="198" key="SettingsEditor" timestamp="1608185219732">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="452" y="179" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1608183807384" />
-    <state x="552" y="273" key="Vcs.Push.Dialog.v2" timestamp="1608183905231">
+    <state x="518" y="198" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1608185219732" />
+    <state x="552" y="273" key="Vcs.Push.Dialog.v2" timestamp="1608184366446">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="552" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1608183905231" />
+    <state x="552" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1608184366446" />
     <state x="752" y="457" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1608176227853">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
