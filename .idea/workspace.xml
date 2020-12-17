@@ -140,7 +140,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1608168967372</updated>
-      <workItem from="1608168975445" duration="9958000" />
+      <workItem from="1608168975445" duration="10249000" />
     </task>
     <task id="LOCAL-00001" summary="完全版">
       <created>1608172786472</created>
@@ -170,7 +170,21 @@
       <option name="project" value="LOCAL" />
       <updated>1608174936649</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="完全版">
+      <created>1608183870758</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1608183870758</updated>
+    </task>
+    <task id="LOCAL-00006" summary="完全版">
+      <created>1608183899142</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1608183899142</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -224,10 +238,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="552" y="199" key="#Notifications/0.0.1920.1080@0.0.1920.1080" timestamp="1608174414442" />
-    <state x="546" y="134" key="CommitChangelistDialog2" timestamp="1608183869773">
+    <state x="546" y="134" key="CommitChangelistDialog2" timestamp="1608183897655">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="546" y="134" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1608183869773" />
+    <state x="546" y="134" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1608183897655" />
     <state x="731" y="292" key="FileChooserDialogImpl" timestamp="1608169018415">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -260,10 +274,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="452" y="179" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1608183807384" />
-    <state x="552" y="273" key="Vcs.Push.Dialog.v2" timestamp="1608177469933">
+    <state x="552" y="273" key="Vcs.Push.Dialog.v2" timestamp="1608183905231">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="552" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1608177469933" />
+    <state x="552" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1608183905231" />
     <state x="752" y="457" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1608176227853">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
