@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b8c58183-96f1-4c84-bc3d-ea90538cb674" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_6.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/encrypt-decrypt/src/main/java/com/atguigu/kaiser/KaiserDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/encrypt-decrypt/src/main/java/com/atguigu/kaiser/KaiserDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/encrypt-decrypt/target/classes/com/atguigu/kaiser/KaiserDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/encrypt-decrypt/target/classes/com/atguigu/kaiser/KaiserDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,18 +104,37 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1608168967372</updated>
-      <workItem from="1608168975445" duration="3782000" />
+      <workItem from="1608168975445" duration="4109000" />
     </task>
+    <task id="LOCAL-00001" summary="完全版">
+      <created>1608172786472</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1608172786472</updated>
+    </task>
+    <task id="LOCAL-00002" summary="完全版">
+      <created>1608172907194</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1608172907194</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="完全版" />
+    <option name="LAST_COMMIT_MESSAGE" value="完全版" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="546" y="134" key="CommitChangelistDialog2" timestamp="1608172784594">
+    <state x="546" y="134" key="CommitChangelistDialog2" timestamp="1608172905620">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="546" y="134" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1608172784594" />
+    <state x="546" y="134" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1608172905620" />
     <state x="731" y="292" key="FileChooserDialogImpl" timestamp="1608169018415">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -141,9 +159,9 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="452" y="179" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1608172765980" />
-    <state x="552" y="273" key="Vcs.Push.Dialog.v2" timestamp="1608172880672">
+    <state x="552" y="273" key="Vcs.Push.Dialog.v2" timestamp="1608172925129">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="552" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1608172880672" />
+    <state x="552" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1608172925129" />
   </component>
 </project>
