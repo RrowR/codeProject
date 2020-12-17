@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b8c58183-96f1-4c84-bc3d-ea90538cb674" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/encrypt-decrypt/target/classes/com/atguigu/ascii/AsciiDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/encrypt-decrypt/target/classes/com/atguigu/bytebit/BiteBit.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/encrypt-decrypt/target/classes/com/atguigu/bytebit/BiteBitDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/encrypt-decrypt/target/classes/com/atguigu/kaiser/FrequencyAnalysis$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/encrypt-decrypt/target/classes/com/atguigu/kaiser/FrequencyAnalysis.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/encrypt-decrypt/target/classes/com/atguigu/kaiser/KaiserDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/encrypt-decrypt/target/classes/com/atguigu/kaiser/Util.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,7 +140,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1608168967372</updated>
-      <workItem from="1608168975445" duration="11372000" />
+      <workItem from="1608168975445" duration="11481000" />
     </task>
     <task id="LOCAL-00001" summary="完全版">
       <created>1608172786472</created>
@@ -199,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608184228911</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="完全版">
+      <created>1608185274322</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1608185274322</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -253,10 +252,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="552" y="199" key="#Notifications/0.0.1920.1080@0.0.1920.1080" timestamp="1608174414442" />
-    <state x="546" y="134" key="CommitChangelistDialog2" timestamp="1608184227994">
+    <state x="546" y="134" key="CommitChangelistDialog2" timestamp="1608185291670">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="546" y="134" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1608184227994" />
+    <state x="546" y="134" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1608185291670" />
     <state x="731" y="292" key="FileChooserDialogImpl" timestamp="1608169018415">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
