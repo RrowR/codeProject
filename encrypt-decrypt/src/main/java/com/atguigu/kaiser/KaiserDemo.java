@@ -7,9 +7,9 @@ public class KaiserDemo {
         //把原文把→移动三位
         int key = 3;
         //凯撒加密
-        String s = encryptKaiser(input);
+        String s = encryptKaiser(input,key);
         System.out.println("加密:"+s);
-        String descrypt = descryptKaiser(s,key);
+        String descrypt = descryptKaiser(s,3);
         //明文
         System.out.println("明文:"+descrypt);
     }
@@ -20,7 +20,7 @@ public class KaiserDemo {
      * @param key   秘钥
      * @return
      */
-    private static String descryptKaiser(String s, int key) {
+    public static String descryptKaiser(String s, int key) {
         char[] chars = s.toCharArray();
         StringBuilder sb = new StringBuilder();
         for (char aChar : chars) {
@@ -32,7 +32,7 @@ public class KaiserDemo {
         return sb.toString();
     }
 
-    private static String encryptKaiser(String input) {
+    public static String encryptKaiser(String input,int key) {
         //抽取快捷键 ctrl+alt+m
         //把字符串变成字节数据
         char[] chars = input.toCharArray();
@@ -40,7 +40,7 @@ public class KaiserDemo {
         for (char aChar : chars) {
             int b = aChar;
             //往右移动三位
-            b = b + 3;
+            b = b + key;
             char newb = (char) b;
             sb.append(newb);
         }
