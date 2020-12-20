@@ -3,7 +3,7 @@ package com.atguigu.digest;
 import java.security.MessageDigest;
 
 /**
- * 常见的加密算法有MD5
+ * 常见的加密算法有MD5、Sha1、Sha256
  */
 public class DigestDemo1 {
     public static void main(String[] args) throws Exception {
