@@ -1,10 +1,10 @@
 package com.atguigu.digest;
 
-import com.sun.org.apache.xml.internal.security.utils.Base64;
-
 import java.security.MessageDigest;
-import java.security.NoSuchAlgorithmException;
 
+/**
+ * 常见的加密算法有MD5
+ */
 public class DigestDemo1 {
     public static void main(String[] args) throws Exception {
         //原文
