@@ -1,9 +1,10 @@
 package com.atguigu.digest;
 
 import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
 
 /**
- * 常见的加密算法有MD5、Sha1、Sha256
+ * 常见的加密算法有MD5、Sha1、Sha256、Sha512
  */
 public class DigestDemo1 {
     public static void main(String[] args) throws Exception {
@@ -14,6 +15,11 @@ public class DigestDemo1 {
 //                            4124bc0a9335c27f086f24ba207a4912
         //算法
         String algorithm = "MD5";
+        String s = DigestToHex(input, algorithm);
+        System.out.println(s);
+    }
+    //消息摘要算法
+    private static String DigestToHex(String input, String algorithm) throws Exception {
         //消息摘要算法，并传入算法格式
         MessageDigest digest = MessageDigest.getInstance(algorithm);
         //执行消息摘要算法
@@ -34,6 +40,7 @@ public class DigestDemo1 {
 //            System.out.print(s);
         }
         //打印对象使用toString就可以了
-        System.out.print(sb.toString());
+//        System.out.print(sb.toString());
+        return sb.toString();
     }
 }
