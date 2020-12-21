@@ -15,8 +15,17 @@ public class DigestDemo1 {
 //                            4124bc0a9335c27f086f24ba207a4912
         //算法
         String algorithm = "MD5";
-        String s = DigestToHex(input, algorithm);
-        System.out.println(s);
+        String md5 = DigestToHex(input, algorithm);
+        System.out.println("MD5:"+md5);
+
+        String sha1 = DigestToHex(input, "SHA-1");
+        System.out.println("SHA-1:"+sha1);
+
+        String sha256 = DigestToHex(input, "SHA-256");
+        System.out.println("SHA-256:"+sha256);
+
+        String sha512 = DigestToHex(input, "SHA-512");
+        System.out.println("SHA-512:"+sha512);
     }
     //消息摘要算法
     private static String DigestToHex(String input, String algorithm) throws Exception {
