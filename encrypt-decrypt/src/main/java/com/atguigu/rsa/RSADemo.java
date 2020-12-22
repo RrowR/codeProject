@@ -1,8 +1,11 @@
 package com.atguigu.rsa;
 
 import com.sun.org.apache.xerces.internal.impl.dv.util.Base64;
+import org.apache.commons.io.FileUtils;
 
 import javax.crypto.Cipher;
+import java.io.File;
+import java.nio.charset.Charset;
 import java.security.*;
 
 /**
@@ -13,6 +16,10 @@ public class RSADemo {
         String input = "美美";
         //选择加密算法
         String algorithm = "RSA";
+
+        //生成密钥文件保存到本地文件中
+        generateKeyToFile(algorithm,"a.pub","b.pri");
+
 //        KeyPairGenerator创建密钥对对象
         KeyPairGenerator keyPairGenerator = KeyPairGenerator.getInstance(algorithm);
 //        生成密钥对实例
@@ -30,9 +37,35 @@ public class RSADemo {
         System.out.println();
         System.out.println("公钥是:"+publicEncode);*/
 
+
         //这里是非对称加密，只能是不同的密钥进行加密与解密
         encriptAnddecript(input, algorithm, privateKey, publicKey);
 
+    }
+
+    /**
+     * 保存公钥和私钥到根目录
+     * @param algorithm     RSA加密算法
+     * @param pubPath           公钥
+     * @param priPath           私钥
+     */
+    private static void generateKeyToFile(String algorithm, String pubPath, String priPath) throws Exception {
+        //        KeyPairGenerator创建密钥对对象
+        KeyPairGenerator keyPairGenerator = KeyPairGenerator.getInstance(algorithm);
+//        生成密钥对实例
+        KeyPair keyPair = keyPairGenerator.generateKeyPair();
+//        生成公私钥
+        PrivateKey privateKey = keyPair.getPrivate();
+        PublicKey publicKey = keyPair.getPublic();
+        //生成公私钥的字节数组，目的是为了使用base64进行编码，防止编码有奇怪的数字
+        byte[] privateKeyEncoded = privateKey.getEncoded();
+        byte[] publicKeyEncoded = publicKey.getEncoded();
+        //使用Base64进行转码
+        String privateEncode = Base64.encode(privateKeyEncoded);
+        String publicEncode = Base64.encode(publicKeyEncoded);
+        //将公钥和私钥保存到根目录
+        FileUtils.writeStringToFile(new File(pubPath),publicEncode, Charset.forName("UTF-8"));
+        FileUtils.writeStringToFile(new File(priPath),privateEncode, Charset.forName("UTF-8"));
     }
 
     private static void encriptAnddecript(String input, String algorithm, Key privateKey, Key publicKey) throws Exception {
