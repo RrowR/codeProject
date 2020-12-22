@@ -1,13 +1,9 @@
 package com.atguigu.rsa;
 
 import com.sun.org.apache.xerces.internal.impl.dv.util.Base64;
-import org.junit.Test;
 
 import javax.crypto.Cipher;
-import java.security.KeyPair;
-import java.security.KeyPairGenerator;
-import java.security.PrivateKey;
-import java.security.PublicKey;
+import java.security.*;
 
 /**
  * 非对称加密
@@ -34,6 +30,12 @@ public class RSADemo {
         System.out.println();
         System.out.println("公钥是:"+publicEncode);*/
 
+        //这里是非对称加密，只能是不同的密钥进行加密与解密
+        encriptAnddecript(input, algorithm, privateKey, publicKey);
+
+    }
+
+    private static void encriptAnddecript(String input, String algorithm, Key privateKey, Key publicKey) throws Exception {
         //创建加密对象,并传入加密算法，这里是RSA非对称加密
         Cipher cipher = Cipher.getInstance(algorithm);
         //传入加密规则，传入私钥加密
@@ -41,7 +43,10 @@ public class RSADemo {
         byte[] bytes = cipher.doFinal(input.getBytes());
         System.out.println(Base64.encode(bytes));
 
-
+        //使用非对称加密只能一个密钥进行加密另一个密钥进行解密
+        cipher.init(Cipher.DECRYPT_MODE,publicKey);
+        byte[] bytes1 = cipher.doFinal(bytes);
+        System.out.println(new String(bytes1));
     }
 
 }
