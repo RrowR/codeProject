@@ -9,7 +9,7 @@ import java.nio.charset.Charset;
 import java.security.*;
 
 /**
- * 非对称加密
+ * RSA:非对称加密
  */
 public class RSADemo {
     public static void main(String[] args) throws Exception {
@@ -19,6 +19,18 @@ public class RSADemo {
 
         //生成密钥文件保存到本地文件中
         generateKeyToFile(algorithm,"a.pub","b.pri");
+
+        System.out.println("--------------------------这里是获得到的私钥------------------------------");
+        //读取本地文件中的密钥
+        String privateKeyString = getprivateKey("b.pri",algorithm);
+        System.out.println(privateKeyString);
+        System.out.println("--------------------------这里是获得到的私钥------------------------------");
+
+        System.out.println("--------------------------这里是获得到的公钥------------------------------");
+        String publicKeyString = getpubllicKey("a.pub",algorithm);
+        System.out.println(publicKeyString);
+        System.out.println("--------------------------这里是获得到的公钥------------------------------");
+
 
 //        KeyPairGenerator创建密钥对对象
         KeyPairGenerator keyPairGenerator = KeyPairGenerator.getInstance(algorithm);
@@ -42,6 +54,23 @@ public class RSADemo {
         encriptAnddecript(input, algorithm, privateKey, publicKey);
 
     }
+
+    private static String getpubllicKey(String pubpath, String algorithm) throws Exception{
+        String publicKeystring = FileUtils.readFileToString(new File(pubpath), Charset.defaultCharset());
+        return publicKeystring;
+    }
+
+    /**
+     * 读取私钥
+     * @param pripath   私钥路径
+     * @param algorithm 算法
+     * @return
+     */
+    private static String getprivateKey(String pripath, String algorithm) throws Exception{
+        String privateKeystring = FileUtils.readFileToString(new File(pripath), Charset.defaultCharset());
+        return privateKeystring;
+    }
+
 
     /**
      * 保存公钥和私钥到根目录
@@ -81,5 +110,7 @@ public class RSADemo {
         byte[] bytes1 = cipher.doFinal(bytes);
         System.out.println(new String(bytes1));
     }
+
+
 
 }
